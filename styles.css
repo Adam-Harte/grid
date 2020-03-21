@@ -88,26 +88,6 @@ body,
   row-gap: 2%;
 }
 
-.area-header {
-  grid-area: header;
-}
-
-.area-sidebar {
-  grid-area: sidebar;
-}
-
-.area-content {
-  grid-area: content;
-}
-
-.area-article {
-  grid-area: article;
-}
-
-.area-footer {
-  grid-area: footer;
-}
-
 .ji-start {
   justify-items: start;
 }
@@ -142,6 +122,90 @@ body,
 
 .pi-center {
   place-items: center;
+}
+
+.jc-start {
+  justify-content: start;
+}
+
+.jc-end {
+  justify-content: end;
+}
+
+.jc-center {
+  justify-content: center;
+}
+
+.jc-space-between {
+  justify-content: space-between;
+}
+
+.jc-space-around {
+  justify-content: space-around;
+}
+
+.jc-space-evenly {
+  justify-content: space-evenly;
+}
+
+.jc-stretch {
+  justify-content: stretch;
+}
+
+.ac-start {
+  align-content: start;
+}
+
+.ac-end {
+  align-content: end;
+}
+
+.ac-center {
+  align-content: center;
+}
+
+.ac-space-between {
+  align-content: space-between;
+}
+
+.ac-space-around {
+  align-content: space-around;
+}
+
+.ac-space-evenly {
+  align-content: space-evenly;
+}
+
+.ac-stretch {
+  align-content: stretch;
+}
+
+.pc-start {
+  place-content: start;
+}
+
+.pc-end {
+  place-content: end;
+}
+
+.pc-center {
+  place-content: center;
+}
+
+.pc-space-between {
+  place-content: space-between;
+}
+
+.pc-space-around {
+  place-content: space-around;
+}
+
+.pc-space-evenly {
+  place-content: space-evenly;
+}
+
+.pc-stretch {
+  place-content: stretch;
 }
 
 .column-1 {
@@ -198,6 +262,26 @@ body,
 
 .row-1-3 {
   grid-row: 1 / 3;
+}
+
+.area-header {
+  grid-area: header;
+}
+
+.area-sidebar {
+  grid-area: sidebar;
+}
+
+.area-content {
+  grid-area: content;
+}
+
+.area-article {
+  grid-area: article;
+}
+
+.area-footer {
+  grid-area: footer;
 }
 
 .js-start {
